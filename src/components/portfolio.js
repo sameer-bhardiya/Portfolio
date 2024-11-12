@@ -73,14 +73,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
+
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -90,9 +91,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
