@@ -192,30 +192,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Fullstack Developer",
+      company: "Freelancing",
+      companylogo: require("../assets/images/sameer.jpg"),
+      date: "July 2024 – present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I worked on two projects: Bhentkala, an e-commerce service provider web-app, and Chhattisgarh Kurmi Samaj, developed a website for the second-largest caste organization in Chhattisgarh.",
+        "Pursuing new tech stacks as a hobby while refining my expertise in data structures and algorithms."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      // companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      // companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      company: "ColoredCow Consulting",
+      companylogo: require("../assets/images/coloredCowLogo.png"),
+      date: "April 2014 – June 2024",
+      desc: "Worked on Portal - Ahub-and-spoke platform for organizations to effectively manage their operations and data.",
+      descBullets: [
+        " Engineered the Project Contract Report module, implementing an automated alert system for deadlines and email notifications, enhancing contract management and reducing missed deadlines by 40%, saving 50+ hours per month.",
+        "Designed a workflow for draft creation, approval processes, and contract renewal, ensuring timely reviews and updates."
+      ]
+    },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   // companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
