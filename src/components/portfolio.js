@@ -197,28 +197,32 @@ const workExperiences = {
       companylogo: require("../assets/images/sameer.jpg"),
       date: "July 2024 – present",
       descBullets: [
-        "I worked on two projects: Bhentkala, an e-commerce service provider web-app, and Chhattisgarh Kurmi Samaj, developed a website for the second-largest caste organization in Chhattisgarh.",
-        "Pursuing new tech stacks as a hobby while refining my expertise in data structures and algorithms."
+        "I worked on two projects: Bhentkala, an e-commerce service provider web-app, and Dilliwar Kurmi Samaj, developed a website for the second-largest samaaj (Society) in Chhattisgarh.",
+        "Pursuing new tech stacks as a hobby while refining my expertise in Data structures and algorithms, Computer networks, Database managment and System design."
       ]
     },
     {
       role: "Software Engineer Intern",
       company: "ColoredCow Consulting",
       companylogo: require("../assets/images/coloredCowLogo.png"),
-      date: "April 2014 – June 2024",
+      date: "April 2024 – June 2024",
       desc: "Worked on Portal - Ahub-and-spoke platform for organizations to effectively manage their operations and data.",
       descBullets: [
-        " Engineered the Project Contract Report module, implementing an automated alert system for deadlines and email notifications, enhancing contract management and reducing missed deadlines by 40%, saving 50+ hours per month.",
+        "Engineered the Project Contract Report module, implementing an automated alert system for deadlines and email notifications, enhancing contract management and reducing missed deadlines by 40%, saving 50+ hours per month.",
         "Designed a workflow for draft creation, approval processes, and contract renewal, ensuring timely reviews and updates."
       ]
     },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   // companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+    {
+      role: "Industry training program",
+      company: "1STOP.ai",
+      companylogo: require("../assets/images/1stop.png"),
+      date: "May 2022 – July 2022",
+      desc: "Created a Raise Digital web development project",
+      descBullets: [
+        "Gained hands-on experience in both front-end and back-end development using Reactjs, Nodejs.",
+        "Advanced to create a multi-page E-commerce platform with an intuitive admin portal."
+      ]
+    }
   ]
 };
 
@@ -390,11 +394,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Reach Out to me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  linkedin: "https://www.linkedin.com/in/sameer-bhardiya/",
+  email_address: "sameerbhardiya@gmail.com"
 };
 
 // Twitter Section

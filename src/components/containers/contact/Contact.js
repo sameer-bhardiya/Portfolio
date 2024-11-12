@@ -1,14 +1,14 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
+import email from "../../../assets/lottie/email";
+import DisplayLottie from "../../../components/displayLottie/DisplayLottie";
+// import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
+  // const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -16,26 +16,22 @@ export default function Contact() {
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
+              className={"subTitle contact-subtitle"
               }
             >
               {contactInfo.subtitle}
             </p>
             <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
+              className={"contact-text-div"
               }
             >
-              {contactInfo.number && (
+              {contactInfo.linkedin && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={ contactInfo.linkedin}
                   >
-                    {contactInfo.number}
+                    {contactInfo.linkedin}
                   </a>
                   <br />
                   <br />
@@ -53,14 +49,12 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
+            {
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                src={require("../../../assets/images/sameer.jpg")}
               ></img>
-            )}
+            }
           </div>
         </div>
       </div>
