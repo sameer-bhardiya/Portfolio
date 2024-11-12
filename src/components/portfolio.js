@@ -140,7 +140,7 @@ const educationInfo = {
       logo: require("../assets/images/ggu.png"),
       subHeader: "Bachelor in Technology in Computer Science",
       duration: "September 2019 - june 2023",
-      desc: "7.8/10 CGPA",
+      desc: "Central University - 78.6 %",
       // descBullets: [
       //   "Central University",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -151,6 +151,7 @@ const educationInfo = {
       logo: require("../assets/images/sharda.png"),
       subHeader: "12th Science",
       duration: "April 2017",
+      desc: "Central Board of Secondary Education",
       // desc: "65%",
       // descBullets: ["Central Board of Secondary Education"]
     },
@@ -159,6 +160,7 @@ const educationInfo = {
       logo: require("../assets/images/sharda.png"),
       subHeader: "10th",
       duration: "April 2015",
+      desc: "Central Board of Secondary Education",
       // desc: "65%",
       // descBullets: ["Central Board of Secondary Education"]
     }
@@ -238,7 +240,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME Clients AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME CLIENTS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("../assets/images/bhentKala.png"),
