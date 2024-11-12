@@ -234,28 +234,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME Clients AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("../assets/images/bhentKala.png"),
+      projectName: "BhentKala",
+      projectDesc: "An e-commerce service provider web-app ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://bhent-kala.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("../assets/images/dilliwar.png"),
+      projectName: "Dilliwar kurmi samaaj",
+      projectDesc: "Second-largest Samaaj (Society) in Chhattisgarh",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.hamardilliwarkurmi.com/"
         }
       ]
     }
