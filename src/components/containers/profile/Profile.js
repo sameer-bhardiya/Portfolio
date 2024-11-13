@@ -38,7 +38,7 @@ export default function Profile() {
   }, []);
   if (
     openSource.display &&
-    openSource.showGithubProfile === "true" &&
+    openSource.showGithubProfile !== "true" &&
     !(typeof prof === "string" || prof instanceof String)
   ) {
     return (
@@ -46,7 +46,8 @@ export default function Profile() {
         {/* <GithubProfileCard prof={prof} key={prof.id} /> */}
       </Suspense>
     );
-  } else {
+  } else
+   {
     return <Contact />;
   }
 }

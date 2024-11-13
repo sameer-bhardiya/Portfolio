@@ -17,8 +17,8 @@ function App() {
       <Skills/>
       <Education/>
       <WorkExperience/>
-      <Projects/>
       <StartupProject/>
+      <Projects/>
       <Profile/>
     </div>
   );
