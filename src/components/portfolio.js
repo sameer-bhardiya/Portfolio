@@ -245,11 +245,15 @@ const bigProjects = {
     {
       image: require("../assets/images/bhentKala.png"),
       projectName: "BhentKala",
-      projectDesc: "An e-commerce service provider web-app ",
+      projectDesc: "An Art e-commerce service web-app ",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://bhent-kala.vercel.app/"
+        },
+        {
+          name: "Source code",
+          url: "https://github.com/sameer-bhardiya/BhentKala"
         }
         //  you can add extra buttons here.
       ]
@@ -268,6 +272,56 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
+
+//personal project
+
+const personalProjects = {
+  title: "Personal Projects",
+  subtitle: "Projects Where I Explored and Learned this Tech Stacks",
+  projects: [
+    {
+      image: require("../assets/images/expenseManager.png"),
+      projectName: "Expense Tracking Application",
+      projectDesc: "Web-app for tracking your finance ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bhent-kala.vercel.app/"
+        },
+        {
+          name: "Source code",
+          url: "https://github.com/sameer-bhardiya/BhentKala"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("../assets/images/ecommerce.png"),
+      projectName: " E-commerce website",
+      projectDesc: "E-commerce service web-app",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.hamardilliwarkurmi.com/"
+        }
+      ]
+    },
+    {
+      image: require("../assets/images/boneFracture.png"),
+      projectName: "Bone frature detection model",
+      projectDesc: "it is model for detecting bone frature",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.hamardilliwarkurmi.com/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -423,6 +477,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  personalProjects,
   achievementSection,
   blogSection,
   talkSection,
