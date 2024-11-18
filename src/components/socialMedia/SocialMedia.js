@@ -1,7 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../portfolio";
-// import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
